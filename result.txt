@@ -1,0 +1,95 @@
+LESK with Lin
+Total = 298, attempted = 298
+precision = 0.063, recall = 0.063
+Total with mode 206 attempted 206
+precision = 0.083, recall = 0.083
+
+Only Lin without LESK
+Total = 298, attempted = 298
+precision = 0.083, recall = 0.083
+Total with mode 206 attempted 206
+precision = 0.112, recall = 0.112
+
+Only Lin with first two words and without LESK
+Total = 298, attempted = 298
+precision = 0.078, recall = 0.078
+Total with mode 206 attempted 206
+precision = 0.112, recall = 0.112
+
+Only Lin without prevalent_sense
+score.pl BL.out gold.trial -t best
+Total = 298, attempted = 298
+precision = 0.083, recall = 0.083
+Total with mode 206 attempted 206
+precision = 0.112, recall = 0.112
+
+first sense of wordnet
+Total = 298, attempted = 298
+precision = 0.026, recall = 0.026
+Total with mode 206 attempted 206
+precision = 0.044, recall = 0.044
+
+new lesk
+Total = 298, attempted = 298
+precision = 0.062, recall = 0.062
+Total with mode 206 attempted 206
+precision = 0.097, recall = 0.097
+
+Lin
+Total = 298, attempted = 288
+precision = 0.119, recall = 0.115
+Total with mode 206 attempted 206
+precision = 0.180, recall = 0.180
+
+prevalent_sense
+Total = 298, attempted = 298
+precision = 0.049, recall = 0.049
+Total with mode 206 attempted 206
+precision = 0.068, recall = 0.068
+
+prevalent_sense 
+precision = 0.049, recall = 0.049
+Total with mode 206 attempted 206
+precision = 0.068, recall = 0.068
+
+adapted
+Total = 298, attempted = 297
+precision = 0.073, recall = 0.073
+Total with mode 206 attempted 206
+precision = 0.097, recall = 0.097
+
+original
+Total = 298, attempted = 295
+precision = 0.047, recall = 0.046
+Total with mode 206 attempted 206
+precision = 0.083, recall = 0.083
+
+simple
+Total = 298, attempted = 293
+precision = 0.065, recall = 0.064
+Total with mode 206 attempted 206
+precision = 0.083, recall = 0.083
+
+new
+Total = 298, attempted = 292
+precision = 0.073, recall = 0.072
+Total with mode 206 attempted 206
+precision = 0.121, recall = 0.121
+
+adapted without stop_word
+Total = 298, attempted = 297
+precision = 0.073, recall = 0.073
+Total with mode 206 attempted 206
+precision = 0.097, recall = 0.097
+
+prevalent_sense with path_similarity
+Total = 298, attempted = 267
+precision = 0.066, recall = 0.059
+Total with mode 206 attempted 206
+precision = 0.087, recall = 0.087
+
+prevalent_sense with wup_similarity
+Total = 298, attempted = 267
+precision = 0.067, recall = 0.060
+Total with mode 206 attempted 206
+precision = 0.092, recall = 0.092
